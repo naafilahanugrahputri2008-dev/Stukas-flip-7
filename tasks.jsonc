@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build flip_7",
+      "type": "shell",
+      "command": "g++",
+      "args": ["-std=c++17","-g","${workspaceFolder}/flip_7.cpp","-o","${workspaceFolder}/flip_7.exe"],
+      "group": {"kind": "build", "isDefault": true},
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
